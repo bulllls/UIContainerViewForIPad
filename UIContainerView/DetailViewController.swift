@@ -49,14 +49,14 @@ class DetailViewController: UITableViewController {
         return 60
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//
-//        if let viewController = parent as? ViewController {
-//            let trackTitle = imageNameArray[indexPath.row]
-//            viewController.titleLabel.text = trackTitle
-//            viewController.imageCover.image = UIImage(named: trackTitle)
-//        }
-//
-//    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        if let viewController = parent as? ViewController {
+            let trackTitle = imageNameArray[indexPath.row]
+            viewController.titleView.text = trackTitle
+            viewController.imageCover.image = UIImage(named: trackTitle)
+        }
+
+    }
     
 }
