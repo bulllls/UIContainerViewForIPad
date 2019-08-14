@@ -12,6 +12,7 @@
 		44E301142303F72A0043AA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E301122303F72A0043AA7B /* Main.storyboard */; };
 		44E301162303F72B0043AA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E301152303F72B0043AA7B /* Assets.xcassets */; };
 		44E301192303F72B0043AA7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E301172303F72B0043AA7B /* LaunchScreen.storyboard */; };
+		44E301212303FA5D0043AA7B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E301202303FA5D0043AA7B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		44E301152303F72B0043AA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E301182303F72B0043AA7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44E3011A2303F72B0043AA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E301202303FA5D0043AA7B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				44E3010E2303F72A0043AA7B /* AppDelegate.swift */,
 				44E301102303F72A0043AA7B /* ViewController.swift */,
+				44E301202303FA5D0043AA7B /* DetailViewController.swift */,
 				44E301122303F72A0043AA7B /* Main.storyboard */,
 				44E301152303F72B0043AA7B /* Assets.xcassets */,
 				44E301172303F72B0043AA7B /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E301212303FA5D0043AA7B /* DetailViewController.swift in Sources */,
 				44E301112303F72A0043AA7B /* ViewController.swift in Sources */,
 				44E3010F2303F72A0043AA7B /* AppDelegate.swift in Sources */,
 			);
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bulllls.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bulllls.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
